@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:doubanapp/pages/container_page.dart';
 import 'package:doubanapp/util/screen_utils.dart';
 import 'package:doubanapp/constant/constant.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 ///打开APP首页
 class SplashWidget extends StatefulWidget {
   @override
@@ -39,12 +38,12 @@ class _SplashWidgetState extends State<SplashWidget> {
                         radius: ScreenUtils.screenW(context) / 3,
                         backgroundColor: Colors.white,
                         backgroundImage:
-                        AssetImage(Constant.ASSETS_IMG + 'home.png'),
+                        AssetImage(Constant.ASSETS_IMG + 'person_top_bg.jpg'),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 20.0),
                         child: Text(
-                          '落花有意随流水,流水无心恋落花',
+                          '我来啦，小豆芽！',
                           style: TextStyle(fontSize: 15.0, color: Colors.black),
                         ),
                       )

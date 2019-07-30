@@ -59,7 +59,7 @@ class _MoviePageState extends State<MoviePage>  with AutomaticKeepAliveClientMix
     print('initState movie_page');
     titleWidget = Padding(
       padding: EdgeInsets.only(top: 10.0),
-      child: TitleWidget(),
+      child: TitleWidget(),//tab页
     );
 
     hotSoonTabBar = HotSoonTabBar(

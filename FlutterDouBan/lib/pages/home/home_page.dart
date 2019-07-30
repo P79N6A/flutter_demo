@@ -328,7 +328,7 @@ _loginContainer(BuildContext context) {
                 borderRadius: const BorderRadius.all(Radius.circular(6.0))),
           ),
           onTap: () {
-            Router.push(context, Router.searchPage, '搜索笨啦灯');
+            Router.push(context, Router.searchPage, '啥也没有');
           },
         )
       ],
